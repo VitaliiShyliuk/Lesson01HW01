@@ -5,9 +5,9 @@ package ua.univer.base.lesson01.HW01.Integer;
 public class Task22 {
     public static void main(String[] args){
         Task22 t = new Task22();
-        t.outPrint(3601);
+        t.countSeconds(3601);
     }
-    void outPrint(int a) {
+    void countSeconds(int a) {
         System.out.println(a%3600);
     }
 }
