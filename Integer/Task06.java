@@ -8,11 +8,11 @@ package ua.univer.base.lesson01.HW01.Integer;
 public class Task06 {
     public static void main(String[] args) {
         Task06 t = new Task06();
-        t.outPrint(100);
-        t.outPrint(9);
-        t.outPrint(45);
+        t.swapNumbers(100);
+        t.swapNumbers(9);
+        t.swapNumbers(45);
     }
-    void outPrint(int a) {
+    void swapNumbers(int a) {
         if (a<10 | a>99) {
             System.out.println("Try input -- number");
         }
