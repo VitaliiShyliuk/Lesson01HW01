@@ -9,10 +9,10 @@ import javax.swing.plaf.synth.SynthOptionPaneUI;
 public class Task24 {
     public static void main(String[] args){
         Task24 t = new Task24();
-        t.outPrint24(7);
+        t.determineDay(7);
     }
-    void outPrint24(int a) {
-        if (a>0 | a<=365) {
+    void determineDay(int a) {
+        if (a>0 & a<=365) {
             String[] week = {"воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"};
             a = a % 7;
             System.out.println("Номер дня недели - " + a + ". (" + week[a] + ")");
